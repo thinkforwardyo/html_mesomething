@@ -1,0 +1,109 @@
+h1 {
+    color: grey;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    color:white;
+
+}
+#container {
+    margin: 0 auto;
+    background-color: powderblue;
+    width: 1200px;
+    padding: 10px;
+    height: 2000px;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+
+}
+
+header {
+    color: grey;
+    margin-top: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: bisque;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: mintcream;
+  }
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    padding: 15px;
+}
+
+#top {
+    margin: 10px;
+    float: left;
+    width: 1140px;
+    height: 353px;
+    padding: 10px;
+}
+
+#middle {
+    float: right;
+    width: 1140px;
+    padding: 10px;
+    margin: 10px;
+    font-family:'Nanum Gothic', sans-serif;
+    font-size: 20px
+}
+#bottom {
+    float: right;
+    width: 1140px;
+    padding: 10px;
+    margin: 10px;
+    font-family:'Nanum Gothic', sans-serif;
+    font-size: 20px
+}
+
+.clearfix {
+    float: clear;
+}
+
+footer {
+    float: left;
+    width: 1200px;
+}
